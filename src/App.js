@@ -2,22 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="container">
+      <div className='navbar'>
+         <h1 className='item-title'> Exercício - Café da manhã </h1>
+      </div>
+      <div>
+         <div className='item-title-list'>
+              <h1>Lista de Compras</h1>
+         </div>
+         <div className='list'>
+             <ul>
+                  <li>Pão</li>
+                  <li>Banana</li>
+                  <li>Milk Shake de Doce de Leite</li>
+                  <li >Nutella</li>
+                  <li>Sorvete</li>
+             </ul>
+         </div>
+      </div>
     </div>
   );
 }
